@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="descuento.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" class="form-descuento" id="form-descuento">
+        <label for="precio">Precio: </label>
+        <input type="number" placeholder=" 0.00"  id="precio" inputmode="numeric" />
+        <label for="descuento">Descuento: </label>
+        <input type="number" placeholder=" 0.00"  id="descuento" step="none" inputmode="numeric"/>
+        <input type="submit" value="Calcular" placeholder="" />
+        <p id="resultado">000</p>
+        <p>Descuento en Pesos: <span id="descuento-pesos"></span></p>
+    </form>
+    <script src="./descuento.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGrey);
+}
+.form-descuento{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 320px;
+
+    align-items: center;
+    border: black 1px solid;
+    padding: 1rem;
+}
+.form-descuento input{
+    width: 80%;
+    height: 58px;
+    margin-bottom: 1.4rem;
+}
+
